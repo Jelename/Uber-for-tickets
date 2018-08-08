@@ -14,3 +14,5 @@ Fraud risk percentage will show to users the risk they are taking when buying th
   - if there are >3 comments on the ticket, add 5% to the risk
 
 The app is built with React & Redux on the frontend, and Typescript, Koa, routing-controllers and TypeORM in the backend.
+
+https://gph.is/2Kz5ihi
