@@ -29,7 +29,7 @@ export default class CommentForm extends PureComponent {
 					} onChange={ this.handleChange } />
 				</div>
 
-				<Button variant="outlined" color="primary" type="submit">Save</Button>
+				<button className='btn' type="submit">Save</button>
 			</form>
 		)
 	}

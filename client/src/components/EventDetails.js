@@ -27,9 +27,10 @@ class EventDetails extends PureComponent{
             <div className='eventDetailsCenter'>
                 <div>                        
                     <h1 className='eventDetailName'>Event: {event.name}</h1>
-                    <h4>{event.description}</h4>
-                    <p><i><b>Start date</b> {event.start_date}</i> | <i><b>End date</b> {event.end_date}</i></p>
-                    <img src={event.picture} alt="event" className='imageDetails' width='30%'/>     
+                    <p className='eventTitleStyle'>{event.description}</p>
+                    
+                    <img src={event.picture} alt="event" className='imageDetails' width='30%'/> 
+                    <p><i><b>Start date</b> {event.start_date}</i> | <i><b>End date</b> {event.end_date}</i></p>    
                     <table className='tableCenter'>
                         <thead>
                             <tr>

@@ -112,19 +112,20 @@ class TicketDetails extends PureComponent{
                 {
                     !this.state.edit && 
                     <div className='ticketStyle'>
-                        <h1 className='ticketDetailsName'>Ticket from: {ticket.user.firstName}</h1> 
-                        <h4>Fraud risk of the ticket is: {this.finalRisk()}%</h4>
-                        <h2 className='priceTicket'>EUR {ticket.price}</h2> 
-                        <p className='ticketDesc'><i>description: {ticket.description}</i></p>
-                        <img src={ticket.picture} alt='ticket' width='30%'/> <br />
-                        {this.props.currentUser && <Button variant="outlined" color="primary" onClick={this.toggleEdit}>Edit your ticket</Button>}
+                        <h1 className='ticketDetailsName'><span className='ticketStyle'>Ticket from:</span> {ticket.user.firstName}</h1> 
+                        <h4 className='fraudRiskText'>Fraud risk of the ticket is: <span className='fraudRisk'>{this.finalRisk()}%</span></h4>
+                        <h2 className='priceTicket'><span className='priceStyle'>price:</span> EUR {ticket.price}</h2> <br />
+                        <img src={ticket.picture} alt='ticket' width='30%'/> 
+                        <p className='ticketDesc'>description: {ticket.description}</p>
+                        {this.props.currentUser && <button className='btnTicket' onClick={this.toggleEdit}>Edit your ticket</button>}
                     </div>
                 }
 
                 <div className='comments'>
                     <h3>Comments</h3>
                     { comments.map(comment => (<div key={comment.id} className="commentList">
-                    <p>{comment.user.firstName}: {comment.content}</p>
+                    <p className='commentText'><span className='commentStyle'>{comment.user.firstName}:</span> {comment.content}</p>
+                    {/* <hr className='styleLine' /> */}
                     </div>)) }  
                 </div>
 

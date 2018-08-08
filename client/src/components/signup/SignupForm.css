@@ -19,7 +19,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
   
   input[type=password], select {
@@ -30,7 +29,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
   
   .btn {

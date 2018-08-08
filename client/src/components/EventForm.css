@@ -15,7 +15,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
   
   input[name=picture], select {
@@ -26,7 +25,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
 
   input[name=content], select {
@@ -37,7 +35,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
 
   input[name=description], select {
@@ -48,7 +45,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
 
   input[name=start_date], select {
@@ -59,7 +55,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
 
   input[name=end_date], select {
@@ -69,9 +64,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    margin-left: 15px;
-  }
+    box-sizing: border-box;  }
 
   input[name=price], select {
     width: 40%;
@@ -81,7 +74,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
   
   .btn {
