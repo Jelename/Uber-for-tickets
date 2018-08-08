@@ -15,4 +15,4 @@ Fraud risk percentage will show to users the risk they are taking when buying th
 
 The app is built with React & Redux on the frontend, and Typescript, Koa, routing-controllers and TypeORM in the backend.
 
-![example](https://media.giphy.com/media/8YZtDR59HD2TxQQcer/giphy.gif)
+![example](https://drive.google.com/file/d/1QPDns8qrG4Wp0iIK6WtCQZPr7yVYBK62/view?usp=drivesdk)
